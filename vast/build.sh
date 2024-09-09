@@ -34,7 +34,6 @@ initialise "${REVISION}" "${OUTPUT}" "${LAST_REVISION}"
 
 export STAGING_DIR=/opt/compiler-explorer/vast-${VERSION}
 export VCPKG_ROOT=/vcpkg
-export CMAKE_PREFIX_PATH=/usr/lib/llvm-18/
 
 rm -rf "vast-${VERSION}"
 git clone -q --depth 1 --recursive --single-branch -b "${BRANCH}" "${URL}" "vast-${VERSION}"
